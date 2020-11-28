@@ -47,14 +47,14 @@ macro_rules! define_net {
     }};
 }
 
-const ALTONA: HardcodedNet = define_net!(altona, include_altona_file);
+const MAPLHA: HardcodedNet = define_net!(malpha, include_malpha_file);
 const MEDALLA: HardcodedNet = define_net!(medalla, include_medalla_file);
 const SPADINA: HardcodedNet = define_net!(spadina, include_spadina_file);
 const PYRMONT: HardcodedNet = define_net!(pyrmont, include_pyrmont_file);
 const MAINNET: HardcodedNet = define_net!(mainnet, include_mainnet_file);
 const TOLEDO: HardcodedNet = define_net!(toledo, include_toledo_file);
 
-const HARDCODED_NETS: &[HardcodedNet] = &[ALTONA, MEDALLA, SPADINA, PYRMONT, MAINNET, TOLEDO];
+const HARDCODED_NETS: &[HardcodedNet] = &[MAPLHA, MEDALLA, SPADINA, PYRMONT, MAINNET, TOLEDO];
 pub const DEFAULT_HARDCODED_TESTNET: &str = "mainnet";
 
 /// Specifies an Eth2 testnet.

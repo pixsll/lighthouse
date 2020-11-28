@@ -114,7 +114,7 @@ macro_rules! define_net {
     };
 }
 
-define_net!(altona, include_altona_file, "altona", true);
+define_net!(malpha, include_malpha_file, "malpha", true);
 
 define_net!(medalla, include_medalla_file, "medalla", true);
 

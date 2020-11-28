@@ -116,7 +116,7 @@ fn main() {
                 .long("network")
                 .value_name("network")
                 .help("Name of the Eth2 chain Lighthouse will sync and follow.")
-                .possible_values(&["medalla", "altona", "spadina", "pyrmont", "mainnet", "toledo"])
+                .possible_values(&["medalla", "malpha", "spadina", "pyrmont", "mainnet", "toledo"])
                 .conflicts_with("testnet-dir")
                 .default_value(DEFAULT_HARDCODED_TESTNET)
                 .takes_value(true)
